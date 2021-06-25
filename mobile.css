@@ -1,0 +1,52 @@
+body{margin:0; background:#efefef; font:95% Arial,Helvetica,sans-serif; padding:0; color:#666}
+a{color:#5c9cf4;}
+a:hover{color:#004d9f;}
+
+#header{background:#5c9cf4 url(/images/headerbg.png) repeat-x bottom; background-size:100% 100%; margin-bottom:0; padding-left:4px; padding-right:8px; padding-top:8px; padding-bottom:8px; color:#fff; text-align:center}
+#header a{color:#fff; font-weight:bold}
+
+.topmenu, #footer{background:#eee url(/images/navbg.png) repeat-x top; background-size:100% 100%; color:#666; margin:0px; padding:8px 5px; font-weight:bold; text-align:center}
+.topmenu a{margin:8px 2px; font-weight:bold}
+
+.clear{clear:both}
+
+/* Wrapper */
+#wrapper{margin:0 auto; padding:0}
+
+.search{background:#ccc; margin:2px; padding:1px; border:1px solid #efefef}
+
+/* Content */
+#content, .content{background:#fff; border:5px solid #ccc; padding:5px}
+
+#show_bar{background:#efefef; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px; margin-bottom:5px; text-align:center}
+
+.alt{background:#efefef; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:5px; margin:5px}
+
+.post{margin:0px; padding:0px; border-bottom:1px solid #efefef}
+.post h2{font-size:13px; padding:5px 2px; border-bottom:1px dotted #efefef; text-align:center}
+.post span{display:block; text-align:center}
+.post p{padding:3px; margin:0px}
+.row0, .row1{padding:2px; border-bottom:1px solid #ccc}
+.row0 a, .row1 a{}
+.row0 span a, .row1 span a{color:#39f}
+.red, #error, .error{color:red; border:1px solid red; padding:5px; margin:5px}
+.green, #success, .success{color:green; border:1px solid green; padding:5px; margin:5px}
+#notice, .notice{border:1px solid orange; padding:5px; margin:5px}
+#success ol, #notice ol, #error ol, .success ol, .notice ol, .error ol{list-style:none}
+#success li, #notice li, #error li, .success li, .notice li, .error li{list-style:none}
+/* Form */
+input[type="text"], input[type="file"], input[type="password"], select, textarea{padding:5px; margin:1px; border:1px solid #ccc; color:#555}
+input[type="submit"], input[type="reset"]{padding:5px; margin:1px; border:1px solid #ccc; text-align:center; background:#ccc url('/images/navbg.png') repeat-x top; color:#666; font-weight:bold}
+
+.title{background:#5c9cf4; color:#fff; padding:8px 5px; margin:2px 0px 2px 0px; text-align:center; font-weight:bold}
+.title a{color:#fff}
+/* Menu */
+.menu{background:#fff; padding:3px; margin-bottom:2px}
+.menu h2{font-size:13px; background:#5c9cf4; color:#fff; padding:7px; margin:0px; text-align:center}
+.menu ul{list-style:none; padding:0; margin:0}
+.menu li{list-style:none; padding:0; margin:0}
+.menu li a{display:block; background:#efefef; border-bottom:1px solid #fff; padding:7px; font:100% Arial,Helvetica,sans-serif; font-weight:bold; text-decoration:none}
+/* Pagination */
+.pagination{font-weight:bold; text-align:center; margin:2px; padding:2px}
+.pagination span, .pagination a{background:#ccc url('/images/navbg.png') repeat-x; margin:1px; padding:1px}
+#footert a{margin:2px; font-weight:bold}
